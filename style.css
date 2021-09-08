@@ -6,35 +6,150 @@
 body{
     width: 100vw;
     height: 100vh;
-    background-image: url(background.png);
-    background-repeat: no-repeat;
+
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: right;
     background-color: white;
     background: linear-gradient(180deg, rgba(218, 59, 63, 0) 15.06%, #DA3B3F 100%), linear-gradient(179.29deg, #CF2425 11.93%, rgba(207, 36, 37, 0) 99.39%);
     mix-blend-mode: normal;
     display: flex;
     flex-direction: column;
-
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', 'Montserrat', sans-serif;
 }
+
 header{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    flex-grow:1 ;
+    flex-grow: 1;
+    color: white;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
 }
+
+header .MENU{
+    padding: 30px;
+    padding-left: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
 main{
-display: flex;
-align-items: center;
-justify-content: center;
-flex-grow:1 ;
-flex-direction: column;
-}
-.rodape{
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+main h1{
+    position: absolute;
+    width: 212px;
+    height: 88px;
+    margin-right: 450px;
+
+
+
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 44px;
+text-align: right;
+
+color: #FFFFFF;
+}
+
+main .cocaCola{
+    width: 201px;
+    height: 705px;
+
+}
+main .background{
+    position: absolute;
+    z-index: -1;
+}
+
+footer{
+    display: flex;
+    align-items: flex-end;
     justify-content: flex-end;
+    flex-direction: column;
+    flex-grow: 1;
+    color: white;
+    font-size: 16px;
+}
+
+
+
+.GLOBAL{
+    padding: 30px;
+    padding-right: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.lines{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 15px;
+    gap: 8px;
+}
+.line1{
+    border: 2px solid #FFFFFF;
+    background-color: #FFFFFF;
+    width: 24px;
+    height: 0px;
+}
+.line2{
+    border: 2px solid #FFFFFF;
+    background-color: #FFFFFF;
+    width: 36px;
+    height: 0px;
+}
+.line3{
+    border: 2px solid #FFFFFF;
+    background-color: #FFFFFF;
+    width: 24px;
+    height: 0px;
+}
+
+
+@media(max-width: 768px){
+
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main h1{
+        width: 119.8px;
+        height: 450px;
+        font-size: 16px;
+    }
  
-    flex-grow:1 ;
+    main .background{
+        position: absolute;
+        width: 360px;
+        height: 177.35px;
+        z-index: -1;
+    }
+    main .cocaCola{
+        width: 119.8px;
+    height: 450px;
+    }
+
+
 }
