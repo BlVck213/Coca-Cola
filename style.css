@@ -96,8 +96,6 @@ footer{
     justify-content: center;
 }
 
-
-
 .lines{
     display: flex;
     justify-content: flex-start;
@@ -138,7 +136,7 @@ footer{
     }
 
     header{
-        font-size: 16px;
+        font-size: 20px;
     }
 
     header .MENU{
@@ -157,10 +155,10 @@ footer{
     main h1{
         position: relative;
         text-align: center;
-        width: 119.8px;
+        width: 150px;
         height: fit-content;
-        font-size: 20px;
-        line-height: 20px;
+        font-size: 26px;
+        line-height: 26px;
         margin: 0px;
     }
  
@@ -184,7 +182,6 @@ footer{
         justify-content: center;
     }    
 
-
     .GLOBAL{
         padding: 20px;
         padding-right: 20px;
@@ -192,6 +189,7 @@ footer{
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        font-size: 20px;
     }
 
 }
