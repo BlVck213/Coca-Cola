@@ -21,7 +21,6 @@ header{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    flex-grow: 1;
     color: white;
     font-style: normal;
     font-weight: 500;
@@ -82,7 +81,6 @@ footer{
     align-items: flex-end;
     justify-content: flex-end;
     flex-direction: column;
-    flex-grow: 1;
     color: white;
     font-size: 16px;
 }
@@ -135,7 +133,7 @@ footer{
         height: 100vh;
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: right;
+        background-position: center;
         background-repeat: no-repeat;
     }
 
@@ -161,7 +159,7 @@ footer{
         text-align: center;
         width: 119.8px;
         height: fit-content;
-        font-size: 18px;
+        font-size: 20px;
         line-height: 20px;
         margin: 0px;
     }
